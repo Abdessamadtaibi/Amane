@@ -1,17 +1,21 @@
-# dependencies
-/node_modules
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv
+venv/
 
-# next.js
-/.next/
-/out/
+# IDE
+.idea/
+*.swp
+*.swo
 
-# production
-/build
-
-# misc
+# OS
 .DS_Store
 
-# env
+# Environment
 .env
 .env.local
-.env*.local
